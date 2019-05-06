@@ -1,0 +1,26 @@
+{
+  "name": "citizenplane",
+  "version": "1.0.0",
+  "description": "backend test",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "knex": "^0.16.5",
+    "lodash": "^4.17.11",
+    "objection": "^1.6.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fendry02/citizenPlane.git"
+  },
+  "author": "Benoit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fendry02/citizenPlane/issues"
+  },
+  "homepage": "https://github.com/Fendry02/citizenPlane#readme"
+}
