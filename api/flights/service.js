@@ -36,8 +36,15 @@ const createFlight = (payload) => {
             });
 }
 
+const getFlightsByFilter = (param) => {
+    return Flight.query()
+            .where(param)
+            .returning('*');
+}
+
 module.exports = {
     getFlights: getFlights,
     getFlightById: getFlightById,
-    createFlight: createFlight
+    createFlight: createFlight,
+    getFlightsByFilter: getFlightsByFilter
 };

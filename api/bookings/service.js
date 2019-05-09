@@ -33,10 +33,15 @@ const createBooking = (payload) => {
             });
 }
 
-
+const getBookingsByFilter = (param) => {
+    return Booking.query()
+            .where(param)
+            .returning('*');
+}
 
 module.exports = {
     getBookings: getBookings,
     getBookingById: getBookingById,
-    createBooking: createBooking
+    createBooking: createBooking,
+    getBookingsByFilter: getBookingsByFilter
 };
