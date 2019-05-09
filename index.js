@@ -2,9 +2,9 @@
 
 const Hapi = require('@hapi/hapi');
 const conf = require('./conf/conf');
-const users = require('./modules/api/users');
-const flights = require('./modules/api/flights');
-const bookings = require('./modules/api/bookings');
+const users = require('./api/users');
+const flights = require('./api/flights');
+const bookings = require('./api/bookings');
 
 
 const init = async () => {

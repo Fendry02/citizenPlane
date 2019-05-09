@@ -1,5 +1,5 @@
 const { Model, ValidationError } = require('objection');
-const conf = require('../../../conf/conf');
+const conf = require('../../conf/conf');
 const Knex = require('knex')(conf.dbConf);
 const Boom = require('@hapi/boom');
 Model.knex(Knex);

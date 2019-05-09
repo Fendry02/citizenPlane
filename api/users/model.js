@@ -1,5 +1,5 @@
 const { Model } = require('objection');
-const conf = require('../../../conf/conf');
+const conf = require('../../conf/conf');
 const Knex = require('knex')(conf.dbConf);
 Model.knex(Knex);
 
