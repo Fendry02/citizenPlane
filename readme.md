@@ -14,7 +14,7 @@ Prerequisite:
 
 Creation of user are not handle in this test.
 
-Improvments: 
+Improvements: 
  - Global error handling (BDD, validation, js)
  - Date format validation when inserting or querying
  - Put status and id verification in hook (beforeInsert ?)
